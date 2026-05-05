@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Cadastro de Camisas</title>
+    <script>
+
+        $(document).ready(function(){
+            $('#Btn').click(function(e){
+                e.preventDefault();
+                var cor = $('#BoxColor').val();
+                if(cor == ''){
+                    alert('Preencha a cor da camisa');
+                    return;
+                }
+                var tamanho = $('#BoxTamanho').val();
+
+                $.ajax({
+                    url: "index.php",
+                    type: "POST",
+                    data: "campo1=" + cor + "&campo2=" + tamanho,
+                    dataType: "html"
+
+                    }).done(function(resposta) {
+                        $('#Resposta').html(resposta);
+
+                    }).fail(function(jqXHR, textStatus ) {
+                        console.log("Request failed: " + textStatus);
+
+                    }).always(function() {
+                        console.log("completou");
+                });
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Registrar sua camisa</h1>
+        <form>
+            <input type="text" placeholder="Coloque a cor da camisa" id="BoxColor">
+            <select id="BoxTamanho">
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+                <option value="GG">GG</option>
+            </select>
+            <button type="button" id="Btn">Registrar</button>
+            <p id="Resposta"></p>
+        </form>
+    </div>
+</body>
+</html>

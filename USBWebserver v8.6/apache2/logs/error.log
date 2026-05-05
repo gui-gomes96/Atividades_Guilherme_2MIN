@@ -1,0 +1,5 @@
+[Tue May 05 08:15:52.542711 2026] [mpm_winnt:notice] [pid 15264:tid 836] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Tue May 05 08:15:52.542711 2026] [mpm_winnt:notice] [pid 15264:tid 836] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Tue May 05 08:15:52.542711 2026] [core:notice] [pid 15264:tid 836] AH00094: Command line: 'C:\\Users\\etec\\Repositorio\\Atividades_Guilherme_2MIN\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/etec/Repositorio/Atividades_Guilherme_2MIN/USBWebserver v8.6/apache2'
+[Tue May 05 08:15:52.558335 2026] [mpm_winnt:notice] [pid 15264:tid 836] AH00418: Parent: Created child process 4760
+[Tue May 05 08:15:53.214553 2026] [mpm_winnt:notice] [pid 4760:tid 860] AH00354: Child: Starting 64 worker threads.
