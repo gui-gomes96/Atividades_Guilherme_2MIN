@@ -18,7 +18,7 @@
                 var tamanho = $('#BoxTamanho').val();
 
                 $.ajax({
-                    url: "index.php",
+                    url: "insere.php",
                     type: "POST",
                     data: "campo1=" + cor + "&campo2=" + tamanho,
                     dataType: "html"
@@ -48,7 +48,7 @@
                 <option value="G">G</option>
                 <option value="GG">GG</option>
             </select>
-            <button type="button" id="Btn">Registrar</button>
+            <button type="submit" id="Btn">Registrar</button>
             <p id="Resposta"></p>
         </form>
     </div>
