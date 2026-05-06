@@ -7,7 +7,26 @@
     <title>Cadastro de Camisas</title>
     <script>
 
-        $(document).ready(function(){
+        $(document).ready(function(){   
+
+
+            $('#ExibirBtn').click(function(e){
+                $.ajax({
+                    url: "1consulta.php",
+                    type: "POST",
+                    dataType: "html"
+
+                    }).done(function(exibir) {
+                        $('#Exibir').html(exibr);
+
+                    }).fail(function(jqXHR, textStatus ) {
+                        console.log("Request failed: " + textStatus);
+
+                    }).always(function() {
+                        console.log("completou");
+                });
+            })
+
             $('#Btn').click(function(e){
                 e.preventDefault();
                 var cor = $('#BoxColor').val();
@@ -20,7 +39,6 @@
                 $.ajax({
                     url: "insere.php",
                     type: "POST",
-                    data: "campo1=" + cor + "&campo2=" + tamanho,
                     dataType: "html"
 
                     }).done(function(resposta) {
@@ -50,6 +68,9 @@
             </select>
             <button type="submit" id="Btn">Registrar</button>
             <p id="Resposta"></p>
+            <button type="button id ="ExibirBtn">Exibir</button>
+            <p id="Exibir"></p>
+
         </form>
     </div>
 </body>
