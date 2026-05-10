@@ -1,5 +1,9 @@
-[Wed May 06 10:50:06.212950 2026] [mpm_winnt:notice] [pid 38052:tid 820] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Wed May 06 10:50:06.212950 2026] [mpm_winnt:notice] [pid 38052:tid 820] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Wed May 06 10:50:06.212950 2026] [core:notice] [pid 38052:tid 820] AH00094: Command line: 'C:\\Users\\aluno\\Desktop\\Repositorio\\Atividades_Guilherme_2MIN\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/aluno/Desktop/Repositorio/Atividades_Guilherme_2MIN/USBWebserver v8.6/apache2'
-[Wed May 06 10:50:06.217062 2026] [mpm_winnt:notice] [pid 38052:tid 820] AH00418: Parent: Created child process 48332
-[Wed May 06 10:50:06.704759 2026] [mpm_winnt:notice] [pid 48332:tid 836] AH00354: Child: Starting 64 worker threads.
+[Sat May 09 20:27:55.475064 2026] [mpm_winnt:notice] [pid 3520:tid 620] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Sat May 09 20:27:55.475064 2026] [mpm_winnt:notice] [pid 3520:tid 620] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Sat May 09 20:27:55.475064 2026] [core:notice] [pid 3520:tid 620] AH00094: Command line: 'C:\\Users\\Gui Gomes\\OneDrive\\Desktop\\Repositorio\\Atividades_Guilherme_2MIN\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/Gui Gomes/OneDrive/Desktop/Repositorio/Atividades_Guilherme_2MIN/USBWebserver v8.6/apache2'
+[Sat May 09 20:27:55.491556 2026] [mpm_winnt:notice] [pid 3520:tid 620] AH00418: Parent: Created child process 7520
+[Sat May 09 20:27:56.614498 2026] [mpm_winnt:notice] [pid 7520:tid 896] AH00354: Child: Starting 64 worker threads.
+[Sat May 09 20:27:58.318418 2026] [:error] [pid 7520:tid 1356] [client ::1:56364] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[Sat May 09 20:27:58.318418 2026] [:error] [pid 7520:tid 1356] [client ::1:56364] PHP Fatal error:  Unknown: Failed opening required 'C:/Users/Gui Gomes/OneDrive/Desktop/Repositorio/Atividades_Guilherme_2MIN/USBWebserver v8.6/phpmyadmin/index.php' (include_path='.;C:\\php\\pear') in Unknown on line 0
+[Sat May 09 20:29:01.451865 2026] [:error] [pid 7520:tid 1356] [client ::1:54651] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[Sat May 09 20:29:01.451865 2026] [:error] [pid 7520:tid 1356] [client ::1:54651] PHP Fatal error:  Unknown: Failed opening required 'C:/Users/Gui Gomes/OneDrive/Desktop/Repositorio/Atividades_Guilherme_2MIN/USBWebserver v8.6/phpmyadmin/index.php' (include_path='.;C:\\php\\pear') in Unknown on line 0

@@ -5,11 +5,11 @@ include 'conecta.php';
 $tamanho = $_POST['campo2'];
 $cor = $_POST['campo1'];
 $resposta = array();
-
+//inseri os valores no mysql
 if($conn->query("INSERT INTO camisa VALUES (NULL, '".$cor."', '".$tamanho."')")){
-    $resposta = 'Camisa registrada com sucesso!';
+    $resposta = 'Camisa registrada!';
 }else {
-    $resposta = 'Nao foi possivel registrar';
+    $resposta = 'Nao Executou o Registro';
 };
  
 echo $resposta;

@@ -1,12 +1,13 @@
 <?php
+
 include 'conecta.php';
 
-$stmt = $conn ->query("SELECT * FROM camisetas ")
+$stmt = $conn->query("SELECT * FROM camisa");
 
-while ($row = $stmt ->fecth(PDO;; FECTH_ASSOC)) {
-    echo $row ['nome'] . "<br>";
+while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+
+    echo $row['cor'] . " - " . $row['tamanho'] . "<br>";
 
 }
-
 
 ?>

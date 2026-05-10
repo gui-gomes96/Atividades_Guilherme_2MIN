@@ -1,77 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Cadastro de Camisas</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
     <script>
+        //exbir das duas formas
+        $(document).ready(function () {
+            $('#ExibirBtn2').click(function () {
 
-        $(document).ready(function(){   
+                $.ajax({
 
+                    url: "2consulta.php",
+                    type: "POST",
+                    dataType: "html"
 
-            $('#ExibirBtn').click(function(e){
+                }).done(function (resultado) {
+
+                    $('#Exibir2').html(resultado);
+
+                }).fail(function (jqXHR, textStatus) {
+
+                    console.log("Erro: " + textStatus);
+
+                });
+
+            });
+
+            $('#ExibirBtn1').click(function () {
+
                 $.ajax({
                     url: "1consulta.php",
                     type: "POST",
                     dataType: "html"
 
-                    }).done(function(exibir) {
-                        $('#Exibir').html(exibr);
+                }).done(function (exibir) {
 
-                    }).fail(function(jqXHR, textStatus ) {
-                        console.log("Request failed: " + textStatus);
+                    $('#Exibir').html(exibir);
 
-                    }).always(function() {
-                        console.log("completou");
-                });
-            })
+                }).fail(function (jqXHR, textStatus) {
 
-            $('#Btn').click(function(e){
-                e.preventDefault();
-                var cor = $('#BoxColor').val();
-                if(cor == ''){
-                    alert('Preencha a cor da camisa');
-                    return;
-                }
-                var tamanho = $('#BoxTamanho').val();
+                    console.log("Erro: " + textStatus);
 
-                $.ajax({
-                    url: "insere.php",
-                    type: "POST",
-                    dataType: "html"
-
-                    }).done(function(resposta) {
-                        $('#Resposta').html(resposta);
-
-                    }).fail(function(jqXHR, textStatus ) {
-                        console.log("Request failed: " + textStatus);
-
-                    }).always(function() {
-                        console.log("completou");
                 });
             });
+
+            //função pra registrar tudo
+            $('#RegistrarBtn').click(function (e) {
+
+                e.preventDefault();
+
+                var cor = $('#Color').val();
+                var tamanho = $('#Tamanho').val();
+
+                if (cor == '') {
+                    alert('Digite a cor');
+                    return;
+                }
+
+                $.ajax({
+
+                    url: "insere.php",
+                    type: "POST",
+                    dataType: "html",
+
+                    data: {
+                        campo1: cor,
+                        campo2: tamanho
+                    }
+
+                }).done(function (resposta) {
+
+                    $('#Resposta').html(resposta);
+
+                }).fail(function (jqXHR, textStatus) {
+
+                    console.log("Erro: " + textStatus);
+
+                });
+
+            });
+
         });
 
     </script>
-</head>
-<body>
-    <div class="container">
-        <h1>Registrar sua camisa</h1>
-        <form>
-            <input type="text" placeholder="Coloque a cor da camisa" id="BoxColor">
-            <select id="BoxTamanho">
-                <option value="P">P</option>
-                <option value="M">M</option>
-                <option value="G">G</option>
-                <option value="GG">GG</option>
-            </select>
-            <button type="submit" id="Btn">Registrar</button>
-            <p id="Resposta"></p>
-            <button type="button id ="ExibirBtn">Exibir</button>
-            <p id="Exibir"></p>
 
-        </form>
-    </div>
+</head>
+
+<body>
+    
+    <h1>Registrar camisa</h1>
+
+    <form>
+
+        <input type="text" id="Color" placeholder="Cor da camisa">
+
+        <select id="Tamanho">
+            <option value="P">P</option>
+            <option value="M">M</option>
+            <option value="G">G</option>
+            <option value="GG">GG</option>
+        </select>
+
+        <button type="submit" id="RegistrarBtn">Registrar</button>
+
+        <button type="button" id="ExibirBtn1">Exibir</button>
+        <button type="button" id="ExibirBtn2">Exibir 2</button>
+
+    </form>
+
+    <p id="Resposta"></p>
+
+    <div id="Exibir"></div>
+    <div id="Exibir2"></div>
+
 </body>
+
 </html>

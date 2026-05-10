@@ -1,0 +1,770 @@
+2026-05-09 14:41:45 1084 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:41:45 1084 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:41:45 1084 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:41:45 1084 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:41:45 1084 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:41:45 1084 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:41:45 1084 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:41:45 1084 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:41:45 1084 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:41:45 1084 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:41:45 1084 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:41:45 1084 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:41:45 1084 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:41:45 29e4  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:42:04 4192 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:42:04 4192 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:42:04 4192 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:42:04 4192 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:42:04 4192 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:42:04 4192 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:42:04 4192 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:42:04 4192 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:42:04 4192 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:42:04 4192 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:42:04 4192 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:42:04 4192 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:42:05 4192 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:42:05 2380  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:42:19 14668 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:42:19 14668 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:42:19 14668 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:42:19 14668 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:42:19 14668 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:42:19 14668 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:42:19 14668 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:42:19 14668 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:42:19 14668 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:42:19 14668 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:42:19 14668 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:42:19 14668 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:42:19 14668 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:42:19 2c4c  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:42:25 20224 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:42:25 20224 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:42:25 20224 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:42:25 20224 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:42:25 20224 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:42:25 20224 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:42:25 20224 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:42:25 20224 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:42:25 20224 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:42:25 20224 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:42:25 20224 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:42:25 20224 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:42:25 20224 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:42:25 1548  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:42:30 17768 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:42:30 17768 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:42:30 17768 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:42:30 17768 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:42:30 17768 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:42:30 17768 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:42:30 17768 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:42:30 17768 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:42:30 17768 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:42:30 17768 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:42:30 17768 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:42:30 17768 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:42:30 17768 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:42:30 1c50  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:42:50 20196 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:42:50 20196 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:42:50 20196 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:42:50 20196 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:42:50 20196 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:42:50 20196 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:42:50 20196 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:42:50 20196 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:42:50 20196 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:42:50 20196 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:42:50 20196 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:42:50 20196 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:42:50 20196 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:42:50 4edc  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:43:00 10512 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:43:00 10512 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:43:00 10512 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:43:00 10512 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:43:00 10512 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:43:00 10512 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:43:00 10512 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:43:00 10512 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:43:00 10512 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:43:00 10512 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:43:00 10512 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:43:00 10512 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:43:00 10512 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:43:00 c48  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:43:03 14316 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:43:03 14316 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:43:03 14316 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:43:03 14316 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:43:03 14316 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:43:03 14316 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:43:03 14316 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:43:03 14316 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:43:03 14316 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:43:03 14316 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:43:03 14316 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:43:03 14316 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:43:03 14316 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:43:03 50a8  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:43:11 9432 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:43:11 9432 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:43:11 9432 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:43:11 9432 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:43:11 9432 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:43:11 9432 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:43:11 9432 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:43:11 9432 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:43:11 9432 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:43:11 9432 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:43:11 9432 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:43:11 9432 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:43:11 9432 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:43:11 c7c  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:43:32 10744 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:43:32 10744 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:43:32 10744 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:43:32 10744 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:43:32 10744 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:43:32 10744 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:43:32 10744 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:43:32 10744 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:43:32 10744 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:43:32 10744 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:43:32 10744 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:43:32 10744 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:43:32 10744 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:43:32 3ee4  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:43:44 10520 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:43:44 10520 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:43:44 10520 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:43:44 10520 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:43:44 10520 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:43:44 10520 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:43:44 10520 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:43:44 10520 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:43:44 10520 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:43:44 10520 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:43:44 10520 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:43:44 10520 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:43:44 10520 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:43:44 4cec  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:43:54 15032 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:43:54 15032 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:43:54 15032 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:43:54 15032 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:43:54 15032 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:43:54 15032 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:43:54 15032 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:43:54 15032 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:43:54 15032 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:43:54 15032 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:43:54 15032 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:43:54 15032 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:43:54 15032 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:43:54 4780  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:45:49 20204 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:45:49 20204 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:45:49 20204 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:45:49 20204 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:45:49 20204 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:45:49 20204 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:45:49 20204 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:45:49 20204 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:45:49 20204 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:45:49 20204 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:45:49 20204 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:45:49 20204 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:45:49 20204 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:45:49 2b78  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:48:40 8636 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:48:40 8636 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:48:40 8636 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:48:40 8636 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:48:40 8636 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:48:40 8636 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:48:40 8636 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:48:40 8636 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:48:40 8636 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:48:40 8636 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:48:40 8636 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:48:40 8636 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:48:40 8636 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:48:40 4780  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:48:50 16300 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:48:50 16300 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:48:50 16300 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:48:50 16300 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:48:50 16300 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:48:50 16300 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:48:50 16300 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:48:50 16300 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:48:50 16300 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:48:50 16300 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:48:50 16300 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:48:50 16300 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:48:50 16300 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:48:50 3370  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:48:55 18216 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:48:56 18216 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:48:56 18216 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:48:56 18216 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:48:56 18216 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:48:56 18216 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:48:56 18216 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:48:56 18216 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:48:56 18216 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:48:56 18216 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:48:56 18216 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:48:56 18216 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:48:56 18216 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:48:56 36b8  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:49:54 15264 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:49:54 15264 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:49:54 15264 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:49:54 15264 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:49:54 15264 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:49:54 15264 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:49:54 15264 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:49:54 15264 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:49:54 15264 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:49:54 15264 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:49:54 15264 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:49:54 15264 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:49:54 15264 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:49:54 5090  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:51:33 10488 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:51:33 10488 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:51:33 10488 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:51:33 10488 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:51:33 10488 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:51:33 10488 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:51:33 10488 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:51:33 10488 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:51:33 10488 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:51:33 10488 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:51:33 10488 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:51:33 10488 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:51:33 10488 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:51:33 3360  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:52:51 1476 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:52:51 1476 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:52:51 1476 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:52:51 1476 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:52:51 1476 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:52:51 1476 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:52:51 1476 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:52:51 1476 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:52:51 1476 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:52:51 1476 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:52:51 1476 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:52:51 1476 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:52:51 1476 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:52:51 3c34  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:52:59 21412 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:52:59 21412 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:52:59 21412 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:52:59 21412 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:52:59 21412 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:52:59 21412 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:52:59 21412 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:52:59 21412 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:52:59 21412 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:52:59 21412 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:52:59 21412 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:52:59 21412 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:52:59 21412 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:52:59 328c  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:53:07 4776 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:53:07 4776 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:53:07 4776 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:53:07 4776 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:53:07 4776 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:53:07 4776 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:53:07 4776 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:53:07 4776 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:53:07 4776 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:53:07 4776 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:53:07 4776 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:53:07 4776 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:53:07 4776 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:53:07 44bc  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:53:13 1052 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:53:13 1052 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:53:13 1052 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:53:13 1052 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:53:13 1052 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:53:13 1052 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:53:13 1052 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:53:13 1052 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:53:13 1052 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:53:14 1052 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:53:14 1052 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:53:14 1052 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:53:14 1052 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:53:14 d14  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:53:22 9424 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:53:22 9424 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:53:22 9424 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:53:22 9424 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:53:22 9424 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:53:22 9424 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:53:22 9424 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:53:22 9424 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:53:22 9424 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:53:22 9424 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:53:22 9424 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:53:22 9424 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:53:22 9424 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:53:22 3248  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:53:27 16580 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:53:27 16580 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:53:27 16580 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:53:27 16580 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:53:27 16580 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:53:27 16580 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:53:27 16580 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:53:27 16580 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:53:27 16580 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:53:27 16580 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:53:27 16580 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:53:27 16580 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:53:27 16580 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:53:27 6fc  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 14:53:33 8892 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 14:53:33 8892 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 14:53:33 8892 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 14:53:33 8892 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 14:53:33 8892 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 14:53:33 8892 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 14:53:34 8892 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 14:53:34 8892 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 14:53:34 8892 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 14:53:34 8892 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 14:53:34 8892 [Note] InnoDB: Starting crash recovery.
+2026-05-09 14:53:34 8892 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 14:53:34 8892 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 14:53:34 4450  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 20:16:06 15152 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 20:16:06 15152 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 20:16:06 15152 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 20:16:06 15152 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 20:16:06 15152 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 20:16:06 15152 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 20:16:06 15152 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 20:16:07 15152 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 20:16:07 15152 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 20:16:07 15152 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 20:16:07 15152 [Note] InnoDB: Starting crash recovery.
+2026-05-09 20:16:07 15152 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 20:16:07 15152 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace db_camisa/camisa uses space ID: 7 at filepath: .\db_camisa\camisa.ibd. Cannot open tablespace test/camisa which uses space ID: 7 at filepath: .\test\camisa.ibd
+2026-05-09 20:16:07 32c0  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\test\camisa.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2026-05-09 20:27:28 17744 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 20:27:28 17744 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 20:27:28 17744 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 20:27:28 17744 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 20:27:28 17744 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 20:27:28 17744 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 20:27:28 17744 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 20:27:28 17744 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 20:27:28 17744 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626716 in the ib_logfiles!
+2026-05-09 20:27:28 17744 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 20:27:28 17744 [Note] InnoDB: Starting crash recovery.
+2026-05-09 20:27:28 17744 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 20:27:28 17744 [Note] InnoDB: Restoring possible half-written data pages 
+2026-05-09 20:27:28 17744 [Note] InnoDB: from the doublewrite buffer...
+2026-05-09 20:27:28 17744 [Note] InnoDB: 128 rollback segment(s) are active.
+2026-05-09 20:27:28 17744 [Note] InnoDB: Waiting for purge to start
+2026-05-09 20:27:28 17744 [Note] InnoDB: 5.6.13 started; log sequence number 1626716
+2026-05-09 20:27:28 17744 [Note] Server hostname (bind-address): '*'; port: 3307
+2026-05-09 20:27:28 17744 [Note] IPv6 is available.
+2026-05-09 20:27:28 17744 [Note]   - '::' resolves to '::';
+2026-05-09 20:27:28 17744 [Note] Server socket created on IP: '::'.
+2026-05-09 20:27:54 19428 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-09 20:27:54 19428 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-09 20:27:54 19428 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-09 20:27:54 19428 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-09 20:27:54 19428 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-09 20:27:54 19428 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-09 20:27:54 19428 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-09 20:27:54 19428 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-09 20:27:54 19428 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626726 in the ib_logfiles!
+2026-05-09 20:27:54 19428 [Note] InnoDB: Database was not shutdown normally!
+2026-05-09 20:27:54 19428 [Note] InnoDB: Starting crash recovery.
+2026-05-09 20:27:54 19428 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-09 20:27:54 19428 [Note] InnoDB: Restoring possible half-written data pages 
+2026-05-09 20:27:54 19428 [Note] InnoDB: from the doublewrite buffer...
+2026-05-09 20:27:54 19428 [Note] InnoDB: 128 rollback segment(s) are active.
+2026-05-09 20:27:55 19428 [Note] InnoDB: Waiting for purge to start
+2026-05-09 20:27:55 19428 [Note] InnoDB: 5.6.13 started; log sequence number 1626726
+2026-05-09 20:27:55 19428 [Note] Server hostname (bind-address): '*'; port: 3307
+2026-05-09 20:27:55 19428 [Note] IPv6 is available.
+2026-05-09 20:27:55 19428 [Note]   - '::' resolves to '::';
+2026-05-09 20:27:55 19428 [Note] Server socket created on IP: '::'.
