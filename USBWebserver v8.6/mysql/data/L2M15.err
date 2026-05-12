@@ -88,3 +88,5 @@ Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
 2026-05-12 08:21:28 43c4 InnoDB: Error: Fetch of persistent statistics requested for table "db_camisa"."camisa" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
 2026-05-12 08:22:19 4308 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
 2026-05-12 08:22:19 4308 InnoDB: Recalculation of persistent statistics requested for table "db_camisa"."camisa" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2026-05-12 09:00:43 4308 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2026-05-12 09:00:43 4308 InnoDB: Recalculation of persistent statistics requested for table "db_camisa"."camisa" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
