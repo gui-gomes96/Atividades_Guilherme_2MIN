@@ -1,0 +1,90 @@
+2026-05-12 08:18:34 13188 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-12 08:18:34 13188 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-12 08:18:34 13188 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-12 08:18:34 13188 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-12 08:18:34 13188 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-12 08:18:34 13188 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-12 08:18:34 13188 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-12 08:18:34 13188 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-05-12 08:18:34 13188 [Note] InnoDB: The log sequence numbers 1626676 and 1626676 in ibdata files do not match the log sequence number 1626736 in the ib_logfiles!
+2026-05-12 08:18:34 13188 [Note] InnoDB: Database was not shutdown normally!
+2026-05-12 08:18:34 13188 [Note] InnoDB: Starting crash recovery.
+2026-05-12 08:18:34 13188 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2026-05-12 08:18:34 13188 [Note] InnoDB: Restoring possible half-written data pages 
+2026-05-12 08:18:34 13188 [Note] InnoDB: from the doublewrite buffer...
+2026-05-12 08:18:34 13188 [Note] InnoDB: 128 rollback segment(s) are active.
+2026-05-12 08:18:34 13188 [Note] InnoDB: Waiting for purge to start
+2026-05-12 08:18:34 13188 [Note] InnoDB: 5.6.13 started; log sequence number 1626736
+2026-05-12 08:18:34 13188 [Note] Server hostname (bind-address): '*'; port: 3307
+2026-05-12 08:18:34 13188 [Note] IPv6 is available.
+2026-05-12 08:18:34 13188 [Note]   - '::' resolves to '::';
+2026-05-12 08:18:34 13188 [Note] Server socket created on IP: '::'.
+2026-05-12 08:18:34 13188 [Note] Event Scheduler: Loaded 0 events
+2026-05-12 08:18:34 13188 [Note] C:\Users\etec\Repositorio\Atividades_Guilherme_2MIN\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2026-05-12 08:18:49 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:18:49 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:18:52 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:18:52 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:18:56 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:18:56 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:18:57 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:18:57 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:18:58 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:18:58 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:19:00 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:19:00 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:19:01 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:19:01 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:19:26 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:19:27 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:19:28 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:19:29 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:20:20 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:20:20 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:20:25 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:20:25 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:20:26 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:20:26 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:20:27 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:20:27 13188 [Warning] InnoDB: Cannot open table db_camisa/camisa from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:21:18 17008 [Note] Plugin 'FEDERATED' is disabled.
+2026-05-12 08:21:18 17008 [Note] InnoDB: The InnoDB memory heap is disabled
+2026-05-12 08:21:18 17008 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-05-12 08:21:18 17008 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2026-05-12 08:21:18 17008 [Note] InnoDB: Not using CPU crc32 instructions
+2026-05-12 08:21:18 17008 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2026-05-12 08:21:18 17008 [Note] InnoDB: Completed initialization of buffer pool
+2026-05-12 08:21:18 17008 [Note] InnoDB: The first specified data file C:\Users\etec\Repositorio\Atividades_Guilherme_2MIN\USBWebserver v8.6\mysql\data\ibdata1 did not exist: a new database to be created!
+2026-05-12 08:21:18 17008 [Note] InnoDB: Setting file C:\Users\etec\Repositorio\Atividades_Guilherme_2MIN\USBWebserver v8.6\mysql\data\ibdata1 size to 10 MB
+2026-05-12 08:21:18 17008 [Note] InnoDB: Database physically writes the file full: wait...
+2026-05-12 08:21:19 17008 [Note] InnoDB: Setting log file C:\Users\etec\Repositorio\Atividades_Guilherme_2MIN\USBWebserver v8.6\mysql\data\ib_logfile101 size to 5 MB
+2026-05-12 08:21:19 17008 [Note] InnoDB: Setting log file C:\Users\etec\Repositorio\Atividades_Guilherme_2MIN\USBWebserver v8.6\mysql\data\ib_logfile1 size to 5 MB
+2026-05-12 08:21:19 17008 [Note] InnoDB: Renaming log file C:\Users\etec\Repositorio\Atividades_Guilherme_2MIN\USBWebserver v8.6\mysql\data\ib_logfile101 to C:\Users\etec\Repositorio\Atividades_Guilherme_2MIN\USBWebserver v8.6\mysql\data\ib_logfile0
+2026-05-12 08:21:19 17008 [Warning] InnoDB: New log files created, LSN=45781
+2026-05-12 08:21:19 17008 [Note] InnoDB: Doublewrite buffer not found: creating new
+2026-05-12 08:21:19 17008 [Note] InnoDB: Doublewrite buffer created
+2026-05-12 08:21:20 17008 [Note] InnoDB: 128 rollback segment(s) are active.
+2026-05-12 08:21:20 17008 [Warning] InnoDB: Creating foreign key constraint system tables.
+2026-05-12 08:21:20 17008 [Note] InnoDB: Foreign key constraint system tables created
+2026-05-12 08:21:20 17008 [Note] InnoDB: Creating tablespace and datafile system tables.
+2026-05-12 08:21:20 17008 [Note] InnoDB: Tablespace and datafile system tables created.
+2026-05-12 08:21:20 17008 [Note] InnoDB: Waiting for purge to start
+2026-05-12 08:21:20 17008 [Note] InnoDB: 5.6.13 started; log sequence number 0
+2026-05-12 08:21:20 17008 [Note] Server hostname (bind-address): '*'; port: 3307
+2026-05-12 08:21:20 17008 [Note] IPv6 is available.
+2026-05-12 08:21:20 17008 [Note]   - '::' resolves to '::';
+2026-05-12 08:21:20 17008 [Note] Server socket created on IP: '::'.
+2026-05-12 08:21:20 17008 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:21:20 17008 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2026-05-12 08:21:20 17008 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:21:20 17008 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2026-05-12 08:21:20 17008 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2026-05-12 08:21:20 17008 [Note] Event Scheduler: Loaded 0 events
+2026-05-12 08:21:20 17008 [Note] C:\Users\etec\Repositorio\Atividades_Guilherme_2MIN\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2026-05-12 08:21:28 43c4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2026-05-12 08:21:28 43c4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2026-05-12 08:21:28 43c4 InnoDB: Error: Fetch of persistent statistics requested for table "db_camisa"."camisa" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2026-05-12 08:22:19 4308 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2026-05-12 08:22:19 4308 InnoDB: Recalculation of persistent statistics requested for table "db_camisa"."camisa" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
