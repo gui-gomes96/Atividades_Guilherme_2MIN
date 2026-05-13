@@ -11,7 +11,7 @@
         $conn = new PDO($endereco, $usuario, $senha);
     } catch (PDOException $e) {
         error_log($e->getMessage(), 3, __DIR__  . "/erros.log");
-        echo 'Erro na conecxao!';
+        echo 'Erro conecxao!';
     }
-    //o meu comuptador ta com um problema no mysql, então fiz um codigo para criar a tabela automaticamnete caso não exitir ou não concetar
+  
 ?>

@@ -9,7 +9,7 @@ $resultado = "<table border='1'>";
 $stmt = $conn->query("SELECT * FROM camisa");
 
 while($row = $stmt->fetchObject()){
-    $resultado .= "<tr><td>$row->cor</td><td>$row->tamanho</td></tr>"
+    $resultado .= "<tr><td>$row->id</td><td>$row->cor</td><td>$row->tamanho</td></tr>"
 ;}
 
 $resultado .= "</table>";

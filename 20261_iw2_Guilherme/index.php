@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,43 +13,43 @@
     <script>
         //exbir das duas formas
         $(document).ready(function () {
-            $('#ExibirBtn2').click(function () {
+            //$('#ExibirBtn2').click(function () {
 
-                $.ajax({
+                //$.ajax({
 
-                    url: "2consulta.php",
-                    type: "POST",
-                    dataType: "html"
+                    //url: "2consulta.php",
+                    //type: "POST",
+                    //dataType: "html"
 
-                }).done(function (resultado) {
+                //}).done(function (resultado) {
 
-                    $('#Exibir2').html(resultado);
+                    //$('#Exibir2').html(resultado);
 
-                }).fail(function (jqXHR, textStatus) {
+               //}).fail(function (jqXHR, textStatus) {
 
-                    console.log("Erro: " + textStatus);
+                    //console.log("Erro: " + textStatus);
 
-                });
+                //});
 
-            });
+            //});
 
-            $('#ExibirBtn1').click(function () {
+            //$('#ExibirBtn1').click(function () {
 
-                $.ajax({
-                    url: "1consulta.php",
-                    type: "POST",
-                    dataType: "html"
+                //$.ajax({
+                    //url: "1consulta.php",
+                    //type: "POST",
+                    //dataType: "html"
 
-                }).done(function (exibir) {
+                //}).done(function (exibir) {
 
-                    $('#Exibir').html(exibir);
+                    //$('#Exibir').html(exibir);
 
-                }).fail(function (jqXHR, textStatus) {
+                //}).fail(function (jqXHR, textStatus) {
 
-                    console.log("Erro: " + textStatus);
+                    //console.log("Erro: " + textStatus);
 
-                });
-            });
+                //});
+            //});
 
             //função pra registrar tudo
             $('#RegistrarBtn').click(function (e) {
@@ -94,7 +97,7 @@
     
     <h1>Registrar camisa</h1>
 
-    <form>
+    <form action="/submit" method="post">
 
         <input type="text" id="Color" placeholder="Cor da camisa">
 
@@ -108,14 +111,18 @@
         <button type="submit" id="RegistrarBtn">Registrar</button>
 
         <button type="button" id="ExibirBtn1">Exibir</button>
-        <button type="button" id="ExibirBtn2">Exibir 2</button>
+        <!--<button type="button" id="ExibirBtn2">Exibir 2</button> -->
 
     </form>
 
-    <p id="Resposta"></p>
+    <div id="Resposta">
+        <?php
+            include 'select.php';
+            exibir()    
+        ?>
 
-    <div id="Exibir"></div>
-    <div id="Exibir2"></div>
+        </div>
+     <!--<div id="Exibir2"></div> -->
 
 </body>
 
