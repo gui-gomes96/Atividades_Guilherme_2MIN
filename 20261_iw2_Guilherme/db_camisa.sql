@@ -28,18 +28,18 @@ USE `db_camisa`;
 -- Estrutura da tabela `camisa`
 --
 
-CREATE TABLE IF NOT EXISTS `camisa` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTS `tb_camisa` (
+  `cd_camisa` int(11) NOT NULL AUTO_INCREMENT,
   `cor` varchar(50) DEFAULT NULL,
   `tamanho` varchar(10) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`cd_camisa`) -- Corrigido aqui de 'id' para 'cd_camisa'
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Extraindo dados da tabela `camisa`
 --
 
-INSERT INTO `camisa` (`id`, `cor`, `tamanho`) VALUES
+INSERT INTO `tb_camisa` (`cd_camisa`, `cor`, `tamanho`) VALUES
 (1, 'Rosa', 'G'),
 (2, 'Preto', 'M');
 

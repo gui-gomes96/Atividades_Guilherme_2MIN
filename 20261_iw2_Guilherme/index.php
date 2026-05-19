@@ -88,6 +88,21 @@
             });
 
         });
+         $('.excluir').click(function(){
+            var id = $(this).attr('id'):
+            $.ajax({
+                url: "apaga.php",
+                type: "POST",
+                dataType: "html",
+                data: {
+                    id: id
+                }
+            }).done(function(resposta){
+                $('#Resposta').html(resposta);
+            }).fail(function(jqXHR, textStatus){
+                console.log("Erro: " + textStatus);
+            });
+        });
 
     </script>
 
