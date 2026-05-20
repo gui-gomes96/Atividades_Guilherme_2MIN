@@ -1,5 +1,5 @@
 <?php
-
+//segunda forma de cosngultar 
 include 'conecta.php';
 
 $stmt = $conn->query("SELECT * FROM camisa");

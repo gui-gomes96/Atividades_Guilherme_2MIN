@@ -109,10 +109,9 @@
 </head>
 
 <body>
-    
     <h1>Registrar camisa</h1>
 
-    <form action="/submit" method="post">
+  
 
         <input type="text" id="Color" placeholder="Cor da camisa">
 
@@ -123,20 +122,20 @@
             <option value="GG">GG</option>
         </select>
 
-        <button type="submit" id="RegistrarBtn">Registrar</button>
+        <button type="button" id="RegistrarBtn">Registrar</button>
 
         <button type="button" id="ExibirBtn1">Exibir</button>
         <!--<button type="button" id="ExibirBtn2">Exibir 2</button> -->
 
-    </form>
+
 
     <div id="Resposta">
         <?php
             include 'select.php';
-            exibir()    
+            exibir();
         ?>
 
-        </div>
+    </div>
      <!--<div id="Exibir2"></div> -->
 
 </body>
