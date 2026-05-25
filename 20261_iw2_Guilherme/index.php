@@ -10,106 +10,86 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <script>
-        //exbir das duas formas
-        $(document).ready(function () {
-            //$('#ExibirBtn2').click(function () {
+<script>
+$(document).ready(function () {
 
-                //$.ajax({
+    // Função para registrar
+    $('#RegistrarBtn').click(function (e) {
 
-                    //url: "2consulta.php",
-                    //type: "POST",
-                    //dataType: "html"
+        e.preventDefault();
 
-                //}).done(function (resultado) {
+        var cor = $('#Color').val();
+        var tamanho = $('#Tamanho').val();
 
-                    //$('#Exibir2').html(resultado);
+        if (cor == '') {
+            alert('Digite a cor');
+            return;
+        }
 
-               //}).fail(function (jqXHR, textStatus) {
+        $.ajax({
 
-                    //console.log("Erro: " + textStatus);
+            url: "insert.php",
+            type: "POST",
+            dataType: "html",
 
-                //});
+            data: {
+                campo1: cor,
+                campo2: tamanho
+            }
 
-            //});
+        }).done(function (resposta) {
 
-            //$('#ExibirBtn1').click(function () {
+            $('#Resposta').html(resposta);
 
-                //$.ajax({
-                    //url: "1consulta.php",
-                    //type: "POST",
-                    //dataType: "html"
+        }).fail(function (jqXHR, textStatus) {
 
-                //}).done(function (exibir) {
-
-                    //$('#Exibir').html(exibir);
-
-                //}).fail(function (jqXHR, textStatus) {
-
-                    //console.log("Erro: " + textStatus);
-
-                //});
-            //});
-
-            //função pra registrar tudo
-            $('#RegistrarBtn').click(function (e) {
-
-                e.preventDefault();
-
-                var cor = $('#Color').val();
-                var tamanho = $('#Tamanho').val();
-
-                if (cor == '') {
-                    alert('Digite a cor');
-                    return;
-                }
-
-                $.ajax({
-
-                    url: "insert.php",
-                    type: "POST",
-                    dataType: "html",
-
-                    data: {
-                        campo1: cor,
-                        campo2: tamanho
-                    }
-
-                }).done(function (resposta) {
-
-                    $('#Resposta').html(resposta);
-
-                }).fail(function (jqXHR, textStatus) {
-
-                    console.log("Erro: " + textStatus);
-
-                });
-
-            });
+            console.log("Erro: " + textStatus);
 
         });
-         $('.excluir').click(function(){
-            var id = $(this).attr('id'):
-            $.ajax({
-                url: "apaga.php",
-                type: "POST",
-                dataType: "html",
-                data: {
-                    id: id
-                }
-            }).done(function(resposta){
-                $('#Resposta').html(resposta);
-            }).fail(function(jqXHR, textStatus){
-                console.log("Erro: " + textStatus);
-            });
+
+    });
+
+    // função para excluir
+    $(document).on('click', '.excluir', function () {
+
+        var id = $(this).attr('id');
+
+        var confirmar = confirm(
+            "Deseja realmente excluir a camisa ID " + id + " ?"
+        );
+
+        if(confirmar == false){
+            return;
+        }
+
+        $.ajax({
+
+            url: "apaga.php",
+            type: "POST",
+            dataType: "html",
+
+            data: {
+                id: id
+            }
+
+        }).done(function (resposta) {
+
+            $('#Resposta').html(resposta);
+
+        }).fail(function (jqXHR, textStatus) {
+
+            console.log("Erro: " + textStatus);
+
         });
 
-    </script>
+    });
 
+});
+</script>
 </head>
 
 <body>
-    <h1>Registrar camisa</h1>
+    <h1>Registrr camisa</h1>
 
   
 
@@ -121,10 +101,11 @@
             <option value="G">G</option>
             <option value="GG">GG</option>
         </select>
+        
 
         <button type="button" id="RegistrarBtn">Registrar</button>
 
-        <button type="button" id="ExibirBtn1">Exibir</button>
+        <!--<<button type="button" id="ExibirBtn1">Exibir</button> -->
         <!--<button type="button" id="ExibirBtn2">Exibir 2</button> -->
 
 
@@ -132,7 +113,7 @@
     <div id="Resposta">
         <?php
             include 'select.php';
-            exibir();
+            echo exibir();
         ?>
 
     </div>

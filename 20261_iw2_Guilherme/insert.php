@@ -2,7 +2,6 @@
 include 'select.php';
 include 'conecta.php';
 
-
 $tamanho = $_POST['campo2'];
 $cor = $_POST['campo1'];
 
