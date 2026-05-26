@@ -40,10 +40,8 @@ CREATE TABLE IF NOT EXISTS `tb_camisa` (
 --
 
 INSERT INTO `tb_camisa` (`cd_camisa`, `cor`, `tamanho`) VALUES
-(1, 'Rosa', 'P'),
-(2, 'Preto', 'M');
-(2, 'Amarelo', 'G');
-(2, 'Vermelho', 'GG');
+(1, 'Azul', 'P'),
+(2, 'Amarelo', 'M');
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

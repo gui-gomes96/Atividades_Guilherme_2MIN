@@ -16,7 +16,8 @@ function exibir(){
             <td>$row->cor</td>
             <td>$row->tamanho</td>
             <td>
-                <button class='excluir' id='$row->cd_camisa'>Excluir</button>
+                <button class='deletar' id='$row->cd_camisa'>Excluir</button>
+                <button class='editar' id='$row->cd_camisa'>Editar</button>
             </td>
         </tr>";
     }

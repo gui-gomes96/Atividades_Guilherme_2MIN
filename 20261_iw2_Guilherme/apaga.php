@@ -13,6 +13,6 @@ if($conn->query($sql)){
 
 }else{
 
-    echo "Erro ao excluir";
+    echo "Erro ao Deletar";
 }
 ?>

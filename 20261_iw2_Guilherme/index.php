@@ -1,19 +1,14 @@
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de Camisas</title>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
 <script>
 $(document).ready(function () {
 
-    // Função para registrar
+    // ffeunção para registrar
     $('#RegistrarBtn').click(function (e) {
 
         e.preventDefault();
@@ -50,7 +45,7 @@ $(document).ready(function () {
     });
 
     // função para excluir
-    $(document).on('click', '.excluir', function () {
+    $(document).on('click', '.deletar', function () {
 
         var id = $(this).attr('id');
 
@@ -83,15 +78,12 @@ $(document).ready(function () {
         });
 
     });
-
 });
 </script>
 </head>
 
 <body>
-    <h1>Registrr camisa</h1>
-
-  
+    <h1>Registrar Camisetas</h1>
 
         <input type="text" id="Color" placeholder="Cor da camisa">
 
@@ -102,13 +94,10 @@ $(document).ready(function () {
             <option value="GG">GG</option>
         </select>
         
-
         <button type="button" id="RegistrarBtn">Registrar</button>
 
         <!--<<button type="button" id="ExibirBtn1">Exibir</button> -->
         <!--<button type="button" id="ExibirBtn2">Exibir 2</button> -->
-
-
 
     <div id="Resposta">
         <?php
@@ -120,5 +109,4 @@ $(document).ready(function () {
      <!--<div id="Exibir2"></div> -->
 
 </body>
-
 </html>
