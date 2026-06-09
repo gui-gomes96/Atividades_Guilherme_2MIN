@@ -14,7 +14,7 @@ function exibir(){
     $stmt = $conn->query("SELECT * FROM tb_camisa"); 
     while($row = $stmt->fetchObject()){ 
         $resultado .= '<tr> 
-                            <td>'. $row->cd_camiseta .'</td> 
+                            <td>'. $row->cd_camisa.'</td> 
                             <td>'. $row->cor .'</td> 
                             <td>'. $row->tamanho .'</td> 
                             <td> 
