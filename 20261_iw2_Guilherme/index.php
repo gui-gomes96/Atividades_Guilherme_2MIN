@@ -6,34 +6,37 @@
     <title>Cadastro de Camisas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src = "npm i bootstrap@5.2.1"></script>
-    <link rel="stylesheet" href="https://bootstrapcdn.com">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-<script>
+    <script>
 $(document).ready(function () {
-    // Captura o clique e joga os dados nos campos certos do Modal
-    $(document).on('click', '[data-bs-toggle="modal"]', function () {
-        // Pega o ID igualzinho ao seu apagar
+
+    $(document).on('click', '.editar', function () {
+
         var idCamisa = $(this).attr('id'); 
         
-        // Encontra a linha da tabela
-        var linha = $(this).closest('tr');
-        
-        // PEGANDO OS TEXTOS DA TABELA
-        // Mudamos os números para encontrar as colunas corretas da sua linha
-        var cor = linha.find('td').eq(0).text().trim();      // Se a cor for a primeira palavra visível
-        var tamanho = linha.find('td').eq(1).text().trim();  // Se o tamanho for a segunda palavra visível
+        $.ajax({
 
-        // Se a tabela tiver o ID na primeira coluna, use esta regra abaixo comentada:
-        // var cor = linha.find('td').eq(1).text().trim();
-        // var tamanho = linha.find('td').eq(2).text().trim();
+            url: "select_edit.php",
+            type: "POST",
+            dataType: "json",
 
-        $('#ColorEdit').val(cor);
-        $('#TamanhoEdit').val(tamanho).change();
+            data: {
+                id: idCamisa
+            }
 
-        // Guarda o ID no botão do modal
-        $('#EditarBtn').attr('data-id', idCamisa);
-    });
+        }).done(function(resposta){
+
+            $('#ColorEdit').val(resposta.cor);
+            $('#TamanhoEdit').val(resposta.tamanho);
+
+            $('#EditarBtn').attr('data-id', idCamisa);
+
+        }).fail(function(){
+
+            alert("Erro ao buscar dados");
+
+        });
+            });
 
     // 2. Envia os dados via AJAX ao clicar em Editar dentro do modal
     $('#EditarBtn').click(function (e) {
